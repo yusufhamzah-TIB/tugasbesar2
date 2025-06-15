@@ -13,49 +13,70 @@ export default function KontakPage() {
         </div>
         
         <div className="contact-container">
-          <div className="contact-info">
-            <h3>Lokasi Kami</h3>
-            <p>
+          <div className="contact-card">
+            <div className="contact-icon">
               <Image 
-                src="/foto/map marker.png" 
-                width={20} 
-                height={20} 
+                src="/foto/map-marker.png" 
+                width={40} 
+                height={40} 
                 alt="Map marker"
-                className="icon"
               />
-              Jl. Kuliner No. 123, Jakarta
-            </p>
-            <p>Restoran kami terletak di pusat kota Jakarta, mudah dijangkau dari mana saja.</p>
+            </div>
+            <h3>Lokasi Kami</h3>
+            <div className="contact-detail">
+              <p>Jl. Kuliner No. 123, Jakarta</p>
+              <p className="description">Restoran kami terletak di pusat kota Jakarta, mudah dijangkau dari mana saja.</p>
+            </div>
           </div>
           
-          <div className="contact-info">
+          <div className="contact-card">
+            <div className="contact-icon">
+              <Image 
+                src="/foto/clock.png" 
+                width={40} 
+                height={40} 
+                alt="Opening hours"
+              />
+            </div>
             <h3>Jam Buka</h3>
-            <p>Senin - Jumat: 10:00 - 22:00</p>
-            <p>Sabtu - Minggu: 09:00 - 23:00</p>
+            <div className="contact-detail">
+              <p><strong>Senin - Jumat:</strong> 10:00 - 22:00</p>
+              <p><strong>Sabtu - Minggu:</strong> 09:00 - 23:00</p>
+            </div>
           </div>
           
-          <div className="contact-info">
+          <div className="contact-card">
+            <div className="contact-icon">
+              <Image 
+                src="/foto/phone-email.png" 
+                width={40} 
+                height={40} 
+                alt="Contacts"
+              />
+            </div>
             <h3>Kontak</h3>
-            <p>
-              <Image 
-                src="/foto/phone.png" 
-                width={20} 
-                height={20} 
-                alt="Phone"
-                className="icon"
-              />
-              (021) 1234-5678
-            </p>
-            <p>
-              <Image 
-                src="/foto/email.png" 
-                width={20} 
-                height={20} 
-                alt="Email"
-                className="icon"
-              />
-              info@kulikarta.com
-            </p>
+            <div className="contact-detail">
+              <p className="contact-method">
+                <Image 
+                  src="/foto/phone.png" 
+                  width={20} 
+                  height={20} 
+                  alt="Phone"
+                  className="method-icon"
+                />
+                (021) 1234-5678
+              </p>
+              <p className="contact-method">
+                <Image 
+                  src="/foto/email.png" 
+                  width={20} 
+                  height={20} 
+                  alt="Email"
+                  className="method-icon"
+                />
+                info@kulikarta.com
+              </p>
+            </div>
           </div>
         </div>
       </section>
