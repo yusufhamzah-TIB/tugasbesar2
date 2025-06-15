@@ -8,7 +8,7 @@ export default function LayananPage() {
       <Header />
       <section className="section">
         <div className="section-title">
-          <h2>Layanan Kami</h2>
+          <h2>Layanan</h2>
           <p>Berbagai pilihan layanan untuk memenuhi kebutuhan kuliner Anda</p>
         </div>
         
