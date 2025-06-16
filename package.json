@@ -3,10 +3,11 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
-    "dev": "next dev --turbopack",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "predeploy": "next build && touch out/.nojekyll",
+    "deploy": "gh-pages -d out"
   },
   "dependencies": {
     "react": "^19.0.0",
@@ -14,7 +15,6 @@
     "next": "15.3.3"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^19",
     "@types/react-dom": "^19",

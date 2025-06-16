@@ -1,11 +1,11 @@
-const isProd = process.env.NODE_ENV === 'production';
-
+/** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  assetPrefix: isProd ? '/tugasbesar2/' : '',
+  output: 'export',             // ✅ this enables static export
+  basePath: '/tugasbesar2',     // ✅ name of your GitHub repo
+  assetPrefix: '/tugasbesar2',
   images: {
-    unoptimized: true,
-  },
+    unoptimized: true           // ✅ required to make <Image> work with export
+  }
 };
 
 module.exports = nextConfig;
