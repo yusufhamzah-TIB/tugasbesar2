@@ -1,10 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',             // ✅ this enables static export
-  basePath: '/tugasbesar2',     // ✅ name of your GitHub repo
-  assetPrefix: '/tugasbesar2',
+  output: 'export',
   images: {
-    unoptimized: true           // ✅ required to make <Image> work with export
+    unoptimized: true
   }
 };
 
