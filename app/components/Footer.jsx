@@ -8,9 +8,9 @@ export default function Footer() {
           <h3>Tentang KuliKarta</h3>
           <p>Restoran dengan konsep tradisional dan santai yang menyajikan hidangan lezat dari bahan-bahan pilihan terbaik.</p>
           <div className="social-links">
-            <a href="#"><Image src="/foto/facebook.png" alt="Facebook" width={40} height={40} className="social-icon" /></a>
-            <a href="#"><Image src="/foto/instagram.png" alt="Instagram" width={40} height={40} className="social-icon" /></a>
-            <a href="#"><Image src="/foto/twitter.png" alt="Twitter" width={40} height={40} className="social-icon" /></a>
+            <a href="#"><Image src="/facebook.png" alt="Facebook" width={40} height={40} className="social-icon" /></a>
+            <a href="#"><Image src="/instagram.png" alt="Instagram" width={40} height={40} className="social-icon" /></a>
+            <a href="#"><Image src="/twitter.png" alt="Twitter" width={40} height={40} className="social-icon" /></a>
           </div>
         </div>
         
@@ -22,9 +22,9 @@ export default function Footer() {
         
         <div className="footer-col">
           <h3>Kontak Kami</h3>
-          <p><Image src="/foto/map marker.png" width={20} height={20} className="icon" alt="Map marker" /> Jl. Kuliner No. 123, Jakarta</p>
-          <p><Image src="/foto/phone.png" width={20} height={20} className="icon" alt="Phone" /> (021) 1234-5678</p>
-          <p><Image src="/foto/email.png" width={20} height={20} className="icon" alt="Email" /> info@kulikarta.com</p>
+          <p><Image src="/map marker.png" width={20} height={20} className="icon" alt="Map marker" /> Jl. Kuliner No. 123, Jakarta</p>
+          <p><Image src="/phone.png" width={20} height={20} className="icon" alt="Phone" /> (021) 1234-5678</p>
+          <p><Image src="/email.png" width={20} height={20} className="icon" alt="Email" /> info@kulikarta.com</p>
         </div>
       </div>
       

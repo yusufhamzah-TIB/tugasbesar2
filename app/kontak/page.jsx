@@ -16,7 +16,7 @@ export default function KontakPage() {
           <div className="contact-card">
             <div className="contact-icon">
               <Image 
-                src="/foto/map-marker.png" 
+                src="/map-marker.png" 
                 width={40} 
                 height={40} 
                 alt="Map marker"
@@ -32,7 +32,7 @@ export default function KontakPage() {
           <div className="contact-card">
             <div className="contact-icon">
               <Image 
-                src="/foto/clock.png" 
+                src="/clock.png" 
                 width={40} 
                 height={40} 
                 alt="Opening hours"
@@ -48,7 +48,7 @@ export default function KontakPage() {
           <div className="contact-card">
             <div className="contact-icon">
               <Image 
-                src="/foto/phone-email.png" 
+                src="/phone-email.png" 
                 width={40} 
                 height={40} 
                 alt="Contacts"
@@ -58,7 +58,7 @@ export default function KontakPage() {
             <div className="contact-detail">
               <p className="contact-method">
                 <Image 
-                  src="/foto/phone.png" 
+                  src="/phone.png" 
                   width={20} 
                   height={20} 
                   alt="Phone"
@@ -68,7 +68,7 @@ export default function KontakPage() {
               </p>
               <p className="contact-method">
                 <Image 
-                  src="/foto/email.png" 
+                  src="/email.png" 
                   width={20} 
                   height={20} 
                   alt="Email"
