@@ -8,42 +8,42 @@ const menuItems = [
     name: "Batagor",
     description: "Alamak, ada batagor! Mana tahannnnnnnnnn",
     price: "Rp 15.000",
-    image: "/batagor.jpg"
+    image: "/tugasbesar2/batagor.jpg"
   },
   {
     id: 2,
     name: "Mie Ayam",
     description: "Uwoooooooooooooooooooooh Mie Ayaaaaaaaaaaam",
     price: "Rp 13.000",
-    image: "/Miayam.JPG"
+    image: "/tugasbesar2/Miayam.JPG"
   },
   {
     id: 3,
     name: "Bakso",
     description: "Baksooooo, mengunggah selera banget Cihuyyyy",
     price: "Rp 16.000",
-    image: "/Bakso.jpg"
+    image: "/tugasbesar2/Bakso.jpg"
   },
   {
     id: 4,
     name: "Seblak",
     description: "Omaigaddd, Byutiful, Emeyzing, ini yang mama cari selama ini",
     price: "Rp 15.000",
-    image: "/Seblak.jpg"
+    image: "/tugasbesar2/Seblak.jpg"
   },
   {
     id: 5,
     name: "Nasi Goreng",
     description: "Nasgor gorengnya kelihatan enak banget yah",
     price: "Rp 13.000",
-    image: "/Nasgor.jpg"
+    image: "/tugasbesar2/Nasgor.jpg"
   },
   {
     id: 6,
     name: "Minuman Segar",
     description: "Berbagai pilihan minuman, termasuk Es Teh cuyyy",
     price: "Rp 5.000 +",
-    image: "/teh.jpg"
+    image: "/tugasbesar2/teh.jpg"
   }
 ]
 
