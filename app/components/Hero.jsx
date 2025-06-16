@@ -6,7 +6,7 @@ export default function Hero() {
     <section className="hero">
       <div className="hero-image-container">
         <Image
-          src="/foto/kuliner.jpg"
+          src="/foto/Munik Restoran.jpg"
           alt="Restoran Kulikarta"
           fill
           priority
