@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <div className="header-container">
-        <div className="logo">KuliKarta</div>
+        <div className="logo">Kulikarta</div>
         <nav>
           <ul>
             <li><Link href="/">Beranda</Link></li>

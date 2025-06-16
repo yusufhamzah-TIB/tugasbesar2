@@ -1,16 +1,6 @@
 import Image from 'next/image'
 
-interface MenuItemProps {
-  item: {
-    id: number
-    name: string
-    description: string
-    price: string
-    image: string
-  }
-}
-
-export default function MenuItem({ item }: MenuItemProps) {
+export default function MenuItem({ item }) {
   return (
     <div className="menu-item">
       <div className="menu-img">
