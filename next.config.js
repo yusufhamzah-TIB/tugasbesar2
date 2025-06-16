@@ -1,9 +1,8 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  output: 'export',
-  images: {
-    unoptimized: true
-  }
+    output: 'export',
+    basePath: '/tugasbesar2',
+    assetPrefix: '/tugasbesar2/',
 };
 
-module.exports = nextConfig;
+export default nextConfig;
