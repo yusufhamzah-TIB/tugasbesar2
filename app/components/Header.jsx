@@ -4,7 +4,7 @@ export default function Header() {
   return (
     <header>
       <div className="header-container">
-        <div className="logo">Munik Restoran</div>
+        <div className="logo"><Kulikarta></Kulikarta></div>
         <nav>
           <ul>
             <li><Link href="/">Beranda</Link></li>
